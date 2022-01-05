@@ -16,13 +16,12 @@ w3 = Web3(Web3.HTTPProvider(
     "https://data-seed-prebsc-1-s1.binance.org:8545"))
 contract_ = w3.eth.contract(abi=abi, bytecode=bytecode)
 
-
+# Connect to contract
 greeter = w3.eth.contract(
      address="0x54f5A7e4E0138d6409fD01684c2f9F01C1bA3486",
      abi=abi
 )
 
-# Connect to contract
 acct = w3.eth.account.privateKeyToAccount(
     'eaba28f33a0493e52d3e9331cf43be2baa14a7850cc304bdaf64e2ae793a4db9')
 
