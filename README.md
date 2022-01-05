@@ -1,2 +1,1 @@
-# Deploy_smart_contract_on_Binance testnet
-Deploy smart contract on Binance testnet
+# Deploy_smart_contract_on_Binance smart chain testnet
